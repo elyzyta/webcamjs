@@ -1,0 +1,73 @@
+.title-welcome {
+  font-size: 2.6rem;
+  color: #00549c;
+}
+
+.btn-gral {
+  width: 385px;
+  height: 75px;
+  border-radius: 36px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.btn-gral.red {
+  background-color: #c61b1a;
+}
+
+.btn-gral.blue {
+  background-color: #10529b;
+}
+
+.box-scan {
+  /* width: 610px;
+  height: 650px; */
+  border: 5px solid #0098aa;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.text-blue {
+  color: #10529b;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.box-list {
+  width: 700px;
+  height: auto;
+  padding-bottom: 2rem;
+  max-height: 260px;
+  border: 2px solid #10529b;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.scroll-scan {
+  max-height: 180px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.p-absolute-loading {
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 30%;
+}
+
+/* En caso de querer rotar la imagen */
+/* .video {
+  -webkit-transform: rotate(-90deg) !important;
+  -webkit-transform-origin: 50% 50% !important;
+  transform: rotate(-90deg) !important;
+  transform-origin: 50% 50% !important;
+  zoom: 38%;
+  margin-top: 15%;
+  margin-left: -18%;
+} */
