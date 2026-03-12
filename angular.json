@@ -28,11 +28,10 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
-              "node_modules/animate.css/animate.css",
               "src/styles.css"
             ],
             "scripts": [],
-            "allowedCommonJsDependencies": ["disable-devtool", "sweetalert2", "webcamjs"]
+            "allowedCommonJsDependencies": ["webcamjs"]
           },
           "configurations": {
             "production": {
