@@ -1,0 +1,55 @@
+.box-scan {
+  border: 5px solid #0004ff;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.list-scan {
+  border: 2px solid #0004ff;
+}
+
+.list-scan h2, 
+.list-scan i {
+  font-size: 26px;
+  color: #0004ff;
+  font-weight: 600;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(../../assets/img/scan.gif) no-repeat center;
+  z-index: -1;
+}
+
+@media (orientation: portrait) {
+  .loader {
+    bottom: 30%
+  }
+}
+
+.btn-primary {
+  border: 8px solid #0004ff;
+  color: #0004ff;
+  width: 70%;
+  height: 90px;
+  margin-top: 1rem;
+  border-radius: 10px;
+  line-height: 110%;
+  font-size: 40px;
+  font-weight: 600;
+
+  i {
+    color: #0004ff;
+  }
+}
+
+.wrapper {
+  align-items: center !important;
+  display: flex;
+  min-height: 50vh;
+  min-width: 100vw;
+}
